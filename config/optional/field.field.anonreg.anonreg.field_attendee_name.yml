@@ -1,0 +1,20 @@
+uuid: 21f85aee-079e-4890-a332-87855584fe61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.anonreg.field_attendee_name
+  module:
+    - eventcreator
+id: anonreg.anonreg.field_attendee_name
+field_name: field_attendee_name
+entity_type: anonreg
+bundle: anonreg
+label: 'Attendee Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

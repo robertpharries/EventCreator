@@ -1,0 +1,21 @@
+uuid: f1f5409d-935a-4e20-a740-3c814e4a32b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status_int
+    - node.type.attendeeevent
+_core:
+  default_config_hash: 3GoJ5BL15Pkhqmn4L3JToveFwKutLms5rsdVbLAx9jM
+id: node.attendeeevent.field_status_int
+field_name: field_status_int
+entity_type: node
+bundle: attendeeevent
+label: 'Status int'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

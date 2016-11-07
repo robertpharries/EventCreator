@@ -1,0 +1,23 @@
+uuid: 5b4b9e35-f63e-479b-b9f3-8523aa57323b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_assetlink
+    - node.type.volunteerevent
+  module:
+    - link
+id: node.volunteerevent.field_assetlink
+field_name: field_assetlink
+entity_type: node
+bundle: volunteerevent
+label: assetlink
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

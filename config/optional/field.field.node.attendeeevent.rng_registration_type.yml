@@ -1,0 +1,23 @@
+uuid: 8514e027-8299-4a76-b933-d3fe3ee67bf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registration_type
+    - node.type.attendeeevent
+_core:
+  default_config_hash: Pe3BI_P7U4hSQ1TGTBljmz_DYfNw3KVkVmdmcboGt6M
+id: node.attendeeevent.rng_registration_type
+field_name: rng_registration_type
+entity_type: node
+bundle: attendeeevent
+label: 'Registration type'
+description: 'Select which registration types are valid for this event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:registration_type'
+  handler_settings: {  }
+field_type: entity_reference

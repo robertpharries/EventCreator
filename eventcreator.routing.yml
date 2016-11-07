@@ -1,0 +1,17 @@
+# May have to use this for event viewing
+eventcreator.view:
+  path: '/event/view/{aid}/{vid}'
+  defaults:
+    _title: 'View Event'
+    _controller: '\Drupal\eventcreator\Controller\EventViewController::content'
+  requirements:
+    _permission: 'access content redirect views'
+
+# View for a single event (if specified by creator)
+eventcreator.view_single:
+  path: '/event/view/{id}'
+  defaults:
+    _title: 'View Event'
+    _controller: '\Drupal\eventcreator\Controller\EventViewController::content_single'
+  requirements:
+    _permission: 'access content redirect views'

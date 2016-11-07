@@ -1,0 +1,20 @@
+uuid: 74992777-fc9d-4771-8898-7141db341274
+langcode: en
+status: true
+dependencies:
+  module:
+    - assetmanage
+    - eventcreator
+id: parent_event.field_associated_assets
+field_name: field_associated_assets
+entity_type: parent_event
+type: entity_reference
+settings:
+  target_type: asset
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

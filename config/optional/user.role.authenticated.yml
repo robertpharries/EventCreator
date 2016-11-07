@@ -1,0 +1,29 @@
+uuid: 5adf9167-665f-44a5-a8e8-c8d057b5431f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+  - 'search content'
+  - 'add asset entities'
+  - 'delete asset entities'
+  - 'edit asset entities'
+  - 'view published asset entities'
+  - 'edit own comments'
+  - 'view own unpublished content'
+  - 'rng register self'
+  - 'use advanced search'
+  - 'access user profiles'
+  - 'view published public profile entities'

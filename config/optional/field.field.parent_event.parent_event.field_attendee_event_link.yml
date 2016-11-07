@@ -1,0 +1,23 @@
+uuid: de688899-54b9-40e0-8c13-af358e89f2a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.parent_event.field_attendee_event_link
+  module:
+    - eventcreator
+    - link
+id: parent_event.parent_event.field_attendee_event_link
+field_name: field_attendee_event_link
+entity_type: parent_event
+bundle: parent_event
+label: 'Attendee Event Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

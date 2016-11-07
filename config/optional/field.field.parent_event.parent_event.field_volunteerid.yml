@@ -1,0 +1,26 @@
+uuid: a18a86e0-25e9-4f9a-a2e1-2adcb5cdd62d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.parent_event.field_volunteerid
+  module:
+    - eventcreator
+_core:
+  default_config_hash: zhU2puONAtnwUnV3MdDIWid7M9NqyKmCXzdfNGkFOhg
+id: parent_event.parent_event.field_volunteerid
+field_name: field_volunteerid
+entity_type: parent_event
+bundle: parent_event
+label: VolunteerID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

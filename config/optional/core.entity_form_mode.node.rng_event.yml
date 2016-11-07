@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+    module:
+        - node
+_core:
+    default_config_hash: ziIZ4SLaw9I0ZFTzRNAqhGdiYwutYRljDW8G6tpXvnQ
+id: node.rng_event
+label: 'Event Settings'
+targetEntityType: node
+cache: true

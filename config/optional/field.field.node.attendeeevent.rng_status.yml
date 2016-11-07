@@ -1,0 +1,23 @@
+uuid: ce600241-ba01-44eb-ab0d-7bbdc6bed7f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_status
+    - node.type.attendeeevent
+_core:
+  default_config_hash: 10S_mm75fyKFVamLb218YTTRp2v7ijT0LiXr0BjdOFo
+id: node.attendeeevent.rng_status
+field_name: rng_status
+entity_type: node
+bundle: attendeeevent
+label: 'Accept new registrations'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Accepting new registrations'
+  off_label: 'Not accepting new registrations'
+field_type: boolean

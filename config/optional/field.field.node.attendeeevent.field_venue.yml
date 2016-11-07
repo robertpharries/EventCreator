@@ -1,0 +1,21 @@
+uuid: c8974dc6-8686-4cdc-a5a3-34bc0edde349
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_venue
+    - node.type.attendeeevent
+_core:
+  default_config_hash: MqAhWotMqGB6KMx_geMbN6iDEQMgp1AR-M-mD-xy_UM
+id: node.attendeeevent.field_venue
+field_name: field_venue
+entity_type: node
+bundle: attendeeevent
+label: Venue
+description: 'Eg. 1 Hargreaves St, Unanderra NSW 2526'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

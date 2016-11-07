@@ -1,0 +1,51 @@
+uuid: b02e20d7-f1fa-463d-90cb-cb6c3eeedf70
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.volunteerevent.field_assetlink
+    - field.field.node.volunteerevent.field_description
+    - field.field.node.volunteerevent.field_edit_link
+    - field.field.node.volunteerevent.field_original_date
+    - field.field.node.volunteerevent.field_parentid
+    - field.field.node.volunteerevent.field_status
+    - field.field.node.volunteerevent.field_status_int
+    - field.field.node.volunteerevent.field_text_date
+    - field.field.node.volunteerevent.field_text_time
+    - field.field.node.volunteerevent.field_venue
+    - field.field.node.volunteerevent.rng_capacity
+    - field.field.node.volunteerevent.rng_registrants_duplicate
+    - field.field.node.volunteerevent.rng_registration_groups
+    - field.field.node.volunteerevent.rng_registration_type
+    - field.field.node.volunteerevent.rng_reply_to
+    - field.field.node.volunteerevent.rng_status
+    - node.type.volunteerevent
+  module:
+    - user
+_core:
+  default_config_hash: P3_QtjZcdDun1msFlBI4U0FlV6_PqD9_pvx9GIVsEUY
+id: node.volunteerevent.teaser
+targetEntityType: node
+bundle: volunteerevent
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_assetlink: true
+  field_description: true
+  field_edit_link: true
+  field_original_date: true
+  field_parentid: true
+  field_status: true
+  field_status_int: true
+  field_text_date: true
+  field_text_time: true
+  field_venue: true
+  rng_capacity: true
+  rng_registrants_duplicate: true
+  rng_registration_groups: true
+  rng_registration_type: true
+  rng_reply_to: true
+  rng_status: true

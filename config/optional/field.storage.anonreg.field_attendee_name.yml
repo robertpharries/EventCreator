@@ -1,0 +1,21 @@
+uuid: 7ebef744-d30c-4b37-be5f-058051511b9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eventcreator
+id: anonreg.field_attendee_name
+field_name: field_attendee_name
+entity_type: anonreg
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

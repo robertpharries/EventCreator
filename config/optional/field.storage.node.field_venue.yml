@@ -1,0 +1,23 @@
+uuid: e8fa92b7-1368-4d54-8b2f-7766e1f08349
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: tx7d-LWr0f3vMSD0clk7zcLpKZf0PSOP9QuEauk1nDI
+id: node.field_venue
+field_name: field_venue
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,80 @@
+uuid: a493cde0-9f46-4fba-b3cd-ff57ad228d10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.parent_event.parent_event.field_associated_assets
+    - field.field.parent_event.parent_event.field_attendee_event_link
+    - field.field.parent_event.parent_event.field_attendeeid
+    - field.field.parent_event.parent_event.field_volunteer_event_link
+    - field.field.parent_event.parent_event.field_volunteerid
+  module:
+    - eventcreator
+    - link
+    - user
+_core:
+  default_config_hash: EMdWnL_QsOKzxgyUuNkoKvHuuSUlx4KcpijQa0r2cQ4
+id: parent_event.parent_event.default
+targetEntityType: parent_event
+bundle: parent_event
+mode: default
+content:
+  field_associated_assets:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_attendee_event_link:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_attendeeid:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_volunteer_event_link:
+    weight: 5
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_volunteerid:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  name:
+    label: above
+    type: string
+    weight: -4
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

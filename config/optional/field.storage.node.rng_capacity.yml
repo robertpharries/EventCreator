@@ -1,0 +1,22 @@
+uuid: acce89e2-1da6-4e02-a09b-8871199a0596
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ZVBhd4IXfUGDgmsjCpHdQM5C61gDvgWmIwFHOkxrQ-E
+id: node.rng_capacity
+field_name: rng_capacity
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 71b953bf-deef-43ef-9485-d61f36689f79
+langcode: en
+status: true
+dependencies:
+  module:
+    - eventcreator
+    - link
+id: parent_event.field_attendee_event_link
+field_name: field_attendee_event_link
+entity_type: parent_event
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

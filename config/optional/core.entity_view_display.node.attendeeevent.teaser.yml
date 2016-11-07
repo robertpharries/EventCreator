@@ -1,0 +1,53 @@
+uuid: b0baa8f8-a4d0-4357-bf9f-c6734783aa61
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.attendeeevent.field_assetlink
+    - field.field.node.attendeeevent.field_description
+    - field.field.node.attendeeevent.field_edit_link
+    - field.field.node.attendeeevent.field_original_date
+    - field.field.node.attendeeevent.field_parentid
+    - field.field.node.attendeeevent.field_status
+    - field.field.node.attendeeevent.field_status_int
+    - field.field.node.attendeeevent.field_text_date
+    - field.field.node.attendeeevent.field_text_time
+    - field.field.node.attendeeevent.field_venue
+    - field.field.node.attendeeevent.rng_capacity
+    - field.field.node.attendeeevent.rng_registrants_duplicate
+    - field.field.node.attendeeevent.rng_registration_groups
+    - field.field.node.attendeeevent.rng_registration_type
+    - field.field.node.attendeeevent.rng_reply_to
+    - field.field.node.attendeeevent.rng_status
+    - node.type.attendeeevent
+  module:
+    - user
+_core:
+  default_config_hash: r3Kv4NksEDDU1kFMeGAIXVR45F0_s9ebiuNppof36YU
+id: node.attendeeevent.teaser
+targetEntityType: node
+bundle: attendeeevent
+mode: teaser
+content:
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_assetlink: true
+  field_description: true
+  field_edit_link: true
+  field_original_date: true
+  field_parentid: true
+  field_status: true
+  field_status_int: true
+  field_text_date: true
+  field_text_time: true
+  field_venue: true
+  rng_capacity: true
+  rng_registrants_duplicate: true
+  rng_registration_groups: true
+  rng_registration_type: true
+  rng_reply_to: true
+  rng_status: true

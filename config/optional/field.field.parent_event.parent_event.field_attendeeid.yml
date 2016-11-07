@@ -1,0 +1,26 @@
+uuid: e2faea36-7db2-464d-b271-8eb5e8e32d19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.parent_event.field_attendeeid
+  module:
+    - eventcreator
+_core:
+  default_config_hash: oK2n_mV3U7kxSWj6qYZzCvShuouQ6OcXz-4zUycMdVI
+id: parent_event.parent_event.field_attendeeid
+field_name: field_attendeeid
+entity_type: parent_event
+bundle: parent_event
+label: AttendeeID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

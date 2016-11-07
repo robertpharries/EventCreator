@@ -1,0 +1,20 @@
+uuid: d941b7e3-aadf-4120-8c6d-ba1e5e32e53a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.anonreg.field_attendee_email
+  module:
+    - eventcreator
+id: anonreg.anonreg.field_attendee_email
+field_name: field_attendee_email
+entity_type: anonreg
+bundle: anonreg
+label: 'Attendee Email'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

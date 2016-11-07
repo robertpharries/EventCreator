@@ -1,0 +1,52 @@
+uuid: 73ff6bc7-0981-428b-b988-d85d51dc1257
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - page_url_qr_code_block
+    - rng
+    - system
+  theme:
+    - bartik
+id: pageurlqrcode
+theme: bartik
+region: content
+weight: -3
+provider: null
+plugin: page_url_qr_code_block
+settings:
+  id: page_url_qr_code_block
+  label: 'QR Code for Event'
+  provider: page_url_qr_code_block
+  label_display: '0'
+  page_url_qr_code_caption: ''
+  page_url_qr_code_alt: 'QR code for Event'
+  page_url_qr_code_width_height: '150'
+  page_url_qr_code_api: google
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      attendeeevent: attendeeevent
+      volunteerevent: volunteerevent
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  rng_current_time:
+    id: rng_current_time
+    date: '1472118644'
+    negate: false
+    context_mapping: {  }
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1472118644'
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

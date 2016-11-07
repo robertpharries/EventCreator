@@ -1,0 +1,27 @@
+# Parent Event menu items definition
+entity.parent_event.collection:
+  title: 'Parent Event list'
+  route_name: entity.parent_event.collection
+  description: 'List Parent Event entities'
+  parent: system.admin_structure
+  weight: 100
+
+parent_event.admin.structure.settings:
+  title: Parent Event settings
+  description: 'Configure Parent Event entities'
+  route_name: parent_event.settings
+  parent: system.admin_structure
+# Anonreg menu items definition
+entity.anonreg.collection:
+  title: 'Anonreg list'
+  route_name: entity.anonreg.collection
+  description: 'List Anonreg entities'
+  parent: system.admin_structure
+  weight: 100
+
+anonreg.admin.structure.settings:
+  title: Anonreg settings
+  description: 'Configure Anonreg entities'
+  route_name: anonreg.settings
+  parent: system.admin_structure
+

@@ -1,0 +1,23 @@
+uuid: 2f0d601a-1391-4cc6-9cce-bd1a29d04d11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registrants_duplicate
+    - node.type.attendeeevent
+_core:
+  default_config_hash: otE5Zr8cBt4KCIajDQgWupxlfS-KiZmOPMgYXuHgSU4
+id: node.attendeeevent.rng_registrants_duplicate
+field_name: rng_registrants_duplicate
+entity_type: node
+bundle: attendeeevent
+label: 'Allow duplicate registrants'
+description: 'Allows a registrant to create more than one registration for this event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Allow duplicate registrants for this event'
+  off_label: 'Do not allow duplicate registrants for this event'
+field_type: boolean

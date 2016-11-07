@@ -1,0 +1,22 @@
+uuid: 50211dc3-74eb-42ca-9d87-bcaa1814dd3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eventcreator
+_core:
+  default_config_hash: 0r1z0g1Q7JDpG9zvf5JkLUUNwKwi0Mt6qHBOan-TfY0
+id: parent_event.field_attendeeid
+field_name: field_attendeeid
+entity_type: parent_event
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

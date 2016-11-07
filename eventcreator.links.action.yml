@@ -1,0 +1,11 @@
+entity.parent_event.add_form:
+  route_name: entity.parent_event.add_form
+  title: 'Add Parent Event'
+  appears_on:
+    - entity.parent_event.collection
+entity.anonreg.add_form:
+  route_name: entity.anonreg.add_form
+  title: 'Add Anonreg'
+  appears_on:
+    - entity.anonreg.collection
+

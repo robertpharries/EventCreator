@@ -1,0 +1,50 @@
+uuid: 12420918-8b84-41eb-bf3c-7e9043de7355
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.anonreg.anonreg.field_attendee_email
+    - field.field.anonreg.anonreg.field_attendee_name
+    - field.field.anonreg.anonreg.field_event
+  module:
+    - eventcreator
+    - user
+id: anonreg.anonreg.default
+targetEntityType: anonreg
+bundle: anonreg
+mode: default
+content:
+  field_attendee_email:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_attendee_name:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_event:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  name:
+    label: above
+    type: string
+    weight: -4
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

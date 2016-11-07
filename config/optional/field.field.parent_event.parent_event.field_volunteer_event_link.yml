@@ -1,0 +1,23 @@
+uuid: b4ca403b-663b-48c9-8f83-8f5d4cc407bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.parent_event.field_volunteer_event_link
+  module:
+    - eventcreator
+    - link
+id: parent_event.parent_event.field_volunteer_event_link
+field_name: field_volunteer_event_link
+entity_type: parent_event
+bundle: parent_event
+label: 'Volunteer Event Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

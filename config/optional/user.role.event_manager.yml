@@ -1,0 +1,39 @@
+uuid: c45211d3-ff3b-4915-bce8-dcaff24dd476
+langcode: en
+status: true
+dependencies: {  }
+id: event_manager
+label: 'Event Manager'
+weight: 2
+is_admin: null
+permissions:
+  0: 'access contextual links'
+  1: 'courier_message_composer compose courier_email to user'
+  2: 'access content add event nodes'
+  3: 'access content edit event nodes'
+  4: 'access content redirect views'
+  5: 'add parent event entities'
+  6: 'delete parent event entities'
+  7: 'edit parent event entities'
+  8: 'view published parent event entities'
+  9: 'create article content'
+  10: 'delete own article content'
+  11: 'edit own article content'
+  12: 'view article revisions'
+  13: 'create attendeeevent content'
+  14: 'delete own attendeeevent content'
+  15: 'edit own attendeeevent content'
+  16: 'create page content'
+  17: 'delete own page content'
+  18: 'edit own page content'
+  19: 'create volunteerevent content'
+  20: 'delete own volunteerevent content'
+  21: 'edit own volunteerevent content'
+  22: 'access in-place editing'
+  23: 'rng register role authenticated'
+  24: 'rng register role event_manager'
+  25: 'rng register role site_manager'
+  28: 'administer nodes'
+  29: 'administer content types'
+  30: 'edit any attendeeevent content'
+  31: 'edit any volunteerevent content'

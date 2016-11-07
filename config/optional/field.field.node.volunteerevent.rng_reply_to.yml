@@ -1,0 +1,21 @@
+uuid: 11122b9b-755c-4a38-89be-1141bc99c527
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_reply_to
+    - node.type.volunteerevent
+_core:
+  default_config_hash: ArMzm2zU_sX2y0nULTXp0NApjiNM66cZJLcaaHY9JZU
+id: node.volunteerevent.rng_reply_to
+field_name: rng_reply_to
+entity_type: node
+bundle: volunteerevent
+label: 'Reply-to e-mail address'
+description: 'E-mail address that appears as reply-to when emails are sent from this event. Leave empty to use site default.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

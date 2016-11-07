@@ -1,0 +1,23 @@
+uuid: 21c0af6e-3a33-420d-af71-f4b6c4621295
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registration_groups
+    - node.type.volunteerevent
+_core:
+  default_config_hash: 0kGJJWUnusYMGeMANpR9W5Q7-KY66oUDtM0wyQZxCas
+id: node.volunteerevent.rng_registration_groups
+field_name: rng_registration_groups
+entity_type: node
+bundle: volunteerevent
+label: 'Registration groups'
+description: 'New registrations will be added to these groups.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:registration_group'
+  handler_settings: {  }
+field_type: entity_reference

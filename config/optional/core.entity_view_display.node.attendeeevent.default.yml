@@ -1,0 +1,114 @@
+uuid: 41c38956-c237-47eb-a9b3-50d806d4916e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.attendeeevent.field_assetlink
+    - field.field.node.attendeeevent.field_description
+    - field.field.node.attendeeevent.field_edit_link
+    - field.field.node.attendeeevent.field_original_date
+    - field.field.node.attendeeevent.field_parentid
+    - field.field.node.attendeeevent.field_status
+    - field.field.node.attendeeevent.field_status_int
+    - field.field.node.attendeeevent.field_text_date
+    - field.field.node.attendeeevent.field_text_time
+    - field.field.node.attendeeevent.field_venue
+    - field.field.node.attendeeevent.rng_capacity
+    - field.field.node.attendeeevent.rng_registrants_duplicate
+    - field.field.node.attendeeevent.rng_registration_groups
+    - field.field.node.attendeeevent.rng_registration_type
+    - field.field.node.attendeeevent.rng_reply_to
+    - field.field.node.attendeeevent.rng_status
+    - node.type.attendeeevent
+  module:
+    - link
+    - simple_gmap
+    - text
+    - user
+_core:
+  default_config_hash: lVNofyaNpbfhE3f_CuGcb2NbxUC9BLfWEkOf6ZdwrBU
+id: node.attendeeevent.default
+targetEntityType: node
+bundle: attendeeevent
+mode: default
+content:
+  field_assetlink:
+    weight: 111
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_edit_link:
+    weight: 110
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_status:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_text_date:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_text_time:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_venue:
+    weight: 107
+    label: above
+    settings:
+      include_map: '1'
+      iframe_width: '600'
+      iframe_height: '450'
+      link_text: 'View larger map'
+      zoom_level: '14'
+      information_bubble: '1'
+      include_text: '1'
+      map_type: m
+      langcode: en
+      include_static_map: 0
+      include_link: 0
+    third_party_settings: {  }
+    type: simple_gmap
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_original_date: true
+  field_parentid: true
+  field_status_int: true
+  rng_capacity: true
+  rng_registrants_duplicate: true
+  rng_registration_groups: true
+  rng_registration_type: true
+  rng_reply_to: true
+  rng_status: true

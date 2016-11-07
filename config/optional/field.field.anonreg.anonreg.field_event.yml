@@ -1,0 +1,26 @@
+uuid: dbccd7e3-7650-4052-aefd-dd2d617854d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.anonreg.field_event
+  module:
+    - eventcreator
+id: anonreg.anonreg.field_event
+field_name: field_event
+entity_type: anonreg
+bundle: anonreg
+label: 'Event Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:parent_event'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

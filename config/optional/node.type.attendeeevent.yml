@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+    enforced:
+        module:
+            - eventcreator
+    module:
+        - menu_ui
+third_party_settings:
+    menu_ui:
+        available_menus:
+            - main
+        parent: 'main:'
+_core:
+    default_config_hash: Rlp286YAi_nkASzZhEb0wysuyuJSnRw33Ggho89MgOY
+name: AttendeeEvent
+type: attendeeevent
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

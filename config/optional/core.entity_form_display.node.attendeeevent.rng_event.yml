@@ -1,0 +1,85 @@
+uuid: d48072cb-bb66-46e8-8708-82d05dbee67c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.rng_event
+    - field.field.node.attendeeevent.field_description
+    - field.field.node.attendeeevent.field_edit_link
+    - field.field.node.attendeeevent.field_original_date
+    - field.field.node.attendeeevent.field_parentid
+    - field.field.node.attendeeevent.field_status
+    - field.field.node.attendeeevent.field_status_int
+    - field.field.node.attendeeevent.field_text_date
+    - field.field.node.attendeeevent.field_text_time
+    - field.field.node.attendeeevent.field_venue
+    - field.field.node.attendeeevent.rng_capacity
+    - field.field.node.attendeeevent.rng_registrants_duplicate
+    - field.field.node.attendeeevent.rng_registration_groups
+    - field.field.node.attendeeevent.rng_registration_type
+    - field.field.node.attendeeevent.rng_reply_to
+    - field.field.node.attendeeevent.rng_status
+    - node.type.attendeeevent
+  module:
+    - rng
+    - unlimited_number
+_core:
+  default_config_hash: i02hWkeUu-HDe4NtKgrgm6tDV4-PYpfxM94mibnCf2c
+id: node.attendeeevent.rng_event
+targetEntityType: node
+bundle: attendeeevent
+mode: rng_event
+content:
+  rng_capacity:
+    type: unlimited_number
+    weight: 2
+    settings:
+      label_unlimited: Unlimited
+      label_number: Limited
+      placeholder: ''
+    third_party_settings: {  }
+  rng_registrants_duplicate:
+    type: boolean_checkbox
+    weight: 1
+    settings:
+      display_label: false
+    third_party_settings: {  }
+  rng_registration_groups:
+    type: rng_registration_group
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  rng_registration_type:
+    type: rng_registration_type
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+  rng_reply_to:
+    type: email_default
+    settings:
+      placeholder: 'Leave empty to use site default.'
+      size: 60
+    weight: 3
+    third_party_settings: {  }
+  rng_status:
+    type: boolean_checkbox
+    weight: 0
+    settings:
+      display_label: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_description: true
+  field_edit_link: true
+  field_original_date: true
+  field_parentid: true
+  field_status: true
+  field_status_int: true
+  field_text_date: true
+  field_text_time: true
+  field_venue: true
+  path: true
+  promote: true
+  sticky: true
+  title: true
+  uid: true

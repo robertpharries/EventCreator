@@ -1,0 +1,26 @@
+uuid: 5d86fba1-ecb6-4ef3-9a32-99cf0e55d046
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.parent_event.field_associated_assets
+  module:
+    - eventcreator
+id: parent_event.parent_event.field_associated_assets
+field_name: field_associated_assets
+entity_type: parent_event
+bundle: parent_event
+label: 'Associated Assets'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:asset'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

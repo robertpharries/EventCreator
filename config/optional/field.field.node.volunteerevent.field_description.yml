@@ -1,0 +1,23 @@
+uuid: ee011d0f-abc8-4a76-80fd-9dd6d27b5554
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.volunteerevent
+  module:
+    - text
+_core:
+  default_config_hash: tAvM3MCEQViM_ZzXKa3LowCHUi2t2U9xV-YDSEIlL20
+id: node.volunteerevent.field_description
+field_name: field_description
+entity_type: node
+bundle: volunteerevent
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

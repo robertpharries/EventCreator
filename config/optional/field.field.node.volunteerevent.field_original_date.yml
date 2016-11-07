@@ -1,0 +1,21 @@
+uuid: bcae4f5e-4a34-4e02-ae01-548d3761c82b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_original_date
+    - node.type.volunteerevent
+_core:
+  default_config_hash: M2NLWCChWfwst1-GdYBecnofN89XU26ZT2o94QYFOfs
+id: node.volunteerevent.field_original_date
+field_name: field_original_date
+entity_type: node
+bundle: volunteerevent
+label: 'Original Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

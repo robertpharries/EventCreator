@@ -1,0 +1,23 @@
+uuid: 163d22c9-f7c1-4a80-b7b0-78d07a10adc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: WJ9Kgy-uluKdcZ8cpsb3BwP2atO3Sx3l0i6CcH69790
+id: node.field_text_time
+field_name: field_text_time
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 153357c7-1e6c-4004-a511-2984e8fad4a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parentid
+    - node.type.attendeeevent
+_core:
+  default_config_hash: gw-R53qEJ-burJ8bTuHQUX5kGc9DmDkh83W2Wo3ZMGk
+id: node.attendeeevent.field_parentid
+field_name: field_parentid
+entity_type: node
+bundle: attendeeevent
+label: ParentID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

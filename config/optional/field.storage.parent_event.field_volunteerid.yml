@@ -1,0 +1,22 @@
+uuid: 8963d440-427e-49e0-80cc-036f1a2784af
+langcode: en
+status: true
+dependencies:
+  module:
+    - eventcreator
+_core:
+  default_config_hash: lVz7izHKguZbyu-WPak-DUPwKMUR9a2YOAK19TRDgPg
+id: parent_event.field_volunteerid
+field_name: field_volunteerid
+entity_type: parent_event
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

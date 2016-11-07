@@ -1,0 +1,35 @@
+uuid: 4a07e461-63df-497c-97a0-ad5989572817
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.parent_event.parent_event.field_associated_assets
+    - field.field.parent_event.parent_event.field_attendee_event_link
+    - field.field.parent_event.parent_event.field_attendeeid
+    - field.field.parent_event.parent_event.field_volunteer_event_link
+    - field.field.parent_event.parent_event.field_volunteerid
+  module:
+    - eventcreator
+_core:
+  default_config_hash: '-iHm_11JdXko1Zg-ISH5zBMpJnqiyjVMP0rlIwWPAwc'
+id: parent_event.parent_event.default
+targetEntityType: parent_event
+bundle: parent_event
+mode: default
+content:
+  field_associated_assets:
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+hidden:
+  field_attendee_event_link: true
+  field_attendeeid: true
+  field_volunteer_event_link: true
+  field_volunteerid: true
+  langcode: true
+  name: true
+  user_id: true

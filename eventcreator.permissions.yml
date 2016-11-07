@@ -1,0 +1,47 @@
+add parent event entities:
+  title: 'Create new Parent Event entities'
+
+administer parent event entities:
+  title: 'Administer Parent Event entities'
+  description: 'Allow to access the administration form to configure Parent Event entities.'
+  restrict access: true
+
+delete parent event entities:
+  title: 'Delete Parent Event entities'
+
+edit parent event entities:
+  title: 'Edit Parent Event entities'
+
+view published parent event entities:
+  title: 'View published Parent Event entities'
+
+view unpublished parent event entities:
+  title: 'View unpublished Parent Event entities'
+
+access content add event nodes:
+  title: 'Access the event create form'
+
+access content edit event nodes:
+  title: 'Access the event edit form'
+
+access content redirect views:
+  title: 'Access the redirection views'
+add anonreg entities:
+  title: 'Create new Anonreg entities'
+
+administer anonreg entities:
+  title: 'Administer Anonreg entities'
+  description: 'Allow to access the administration form to configure Anonreg entities.'
+  restrict access: true
+
+delete anonreg entities:
+  title: 'Delete Anonreg entities'
+
+edit anonreg entities:
+  title: 'Edit Anonreg entities'
+
+view published anonreg entities:
+  title: 'View published Anonreg entities'
+
+view unpublished anonreg entities:
+  title: 'View unpublished Anonreg entities'

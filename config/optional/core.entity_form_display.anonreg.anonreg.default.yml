@@ -1,0 +1,41 @@
+uuid: 75e6444a-d47a-43ac-bf4d-9891ba7144b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.anonreg.anonreg.field_attendee_email
+    - field.field.anonreg.anonreg.field_attendee_name
+    - field.field.anonreg.anonreg.field_event
+  module:
+    - eventcreator
+id: anonreg.anonreg.default
+targetEntityType: anonreg
+bundle: anonreg
+mode: default
+content:
+  field_attendee_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+  field_attendee_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_event:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+hidden:
+  langcode: true
+  name: true
+  user_id: true

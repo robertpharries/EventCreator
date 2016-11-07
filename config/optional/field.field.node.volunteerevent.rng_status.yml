@@ -1,0 +1,23 @@
+uuid: 0d595e4e-6de5-457b-9316-76bafe4af683
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_status
+    - node.type.volunteerevent
+_core:
+  default_config_hash: 2uuDmXCieC2TZcxQAqx_SX9MtUPJLL_fxNkFc5s7qZA
+id: node.volunteerevent.rng_status
+field_name: rng_status
+entity_type: node
+bundle: volunteerevent
+label: 'Accept new registrations'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Accepting new registrations'
+  off_label: 'Not accepting new registrations'
+field_type: boolean

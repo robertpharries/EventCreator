@@ -1,0 +1,22 @@
+{#
+/**
+ * @file anonreg.html.twig
+ * Default theme implementation to present Anonreg data.
+ *
+ * This template is used when viewing Anonreg pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_anonreg()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('anonreg') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>
